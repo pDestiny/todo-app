@@ -42,6 +42,7 @@ jobs:
     name: Deploy to Cloudflare Pages
     needs: validate
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    environment: CLOUDFLARE_ENVIRONMENT
     runs-on: ubuntu-latest
 
     steps:
