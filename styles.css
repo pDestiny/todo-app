@@ -32,6 +32,7 @@ input {
 }
 
 button {
+  color: #fff;
   cursor: pointer;
 }
 
@@ -121,7 +122,6 @@ h1 {
 
 .filter-button {
   background: #e8efec;
-  color: var(--text);
 }
 
 .todo-list {
@@ -189,7 +189,6 @@ h1 {
   width: 38px;
   height: 38px;
   border-radius: 6px;
-  color: var(--danger);
   font-size: 1.4rem;
 }
 
@@ -209,7 +208,6 @@ h1 {
 
 .text-button {
   border-radius: 6px;
-  color: var(--danger);
   font-weight: 700;
 }
 
